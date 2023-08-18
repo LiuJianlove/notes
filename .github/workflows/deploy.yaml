@@ -28,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ../.vitepress/dist  # 替换为您的构建输出目录
+          publish_dir: ../../dist  # 替换为您的构建输出目录
