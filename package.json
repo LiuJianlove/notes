@@ -1,0 +1,27 @@
+{
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "dev": "vitepress",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "1.0.0-rc.4",
+    "vue": "^3.3.4"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.0"
+  },
+  "type": "module"
+}
