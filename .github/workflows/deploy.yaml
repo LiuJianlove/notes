@@ -19,7 +19,7 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: pnpm install  # 替换为您的包管理器命令
+        run: pnpm install  # 替换为你的包管理器命令
 
       - name: Build
         run: pnpm run build  # 替换为您的包管理器命令
