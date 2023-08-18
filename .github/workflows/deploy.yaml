@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 替换为您的默认分支名
+      - main  # 替换为您的默认分支
 
 jobs:
   deploy:
