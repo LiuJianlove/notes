@@ -21,7 +21,7 @@ hero:
       link: /git/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/ares-chang/notes
+      link: https://github.com/LiuJianlove/notes
 
 features:
   - icon: ⚡
